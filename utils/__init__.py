@@ -37,7 +37,20 @@ from .power import (
     proportion_diff_power,
     anova_power,
 )
-from .visualization import qqplot, hist_kde, box_violin
+from .visualization import (
+    set_theme,
+    qqplot,
+    hist_kde,
+    box_violin,
+    distplot,
+    ecdf,
+    corr_heatmap,
+    pairgrid,
+    scatter_fit,
+    bar_ci,
+    line_ci,
+    ridgeline,
+)
 
 __all__ = [
     "describe_series",
@@ -64,7 +77,16 @@ __all__ = [
     "two_sample_ttest_power",
     "proportion_diff_power",
     "anova_power",
+    "set_theme",
     "qqplot",
     "hist_kde",
     "box_violin",
+    "distplot",
+    "ecdf",
+    "corr_heatmap",
+    "pairgrid",
+    "scatter_fit",
+    "bar_ci",
+    "line_ci",
+    "ridgeline",
 ]
