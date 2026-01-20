@@ -15,7 +15,7 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-from src import (
+from utils import (
     describe_series,
     one_sample_ttest,
     independent_ttest,
