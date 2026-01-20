@@ -75,7 +75,7 @@ print(res["r2"])  # tidy params in res["params"]
 - [src/effect_sizes.py](src/effect_sizes.py): `cohen_d_independent()`, `cohen_d_paired()`, `hedges_g()`, `eta_squared_anova()`, `omega_squared_anova()`, `cramer_v()`, `cliff_delta()`
 - [src/regression.py](src/regression.py): `ols_formula()`, `logistic_formula()`
 - [src/power.py](src/power.py): `ttest_power()`, `two_sample_ttest_power()`, `proportion_diff_power()`, `anova_power()`
-- [src/visualization.py](src/visualization.py): `qqplot()`, `hist_kde()`, `box_violin()`
+- [src/visualization.py](src/visualization.py): `qqplot()`, `hist_kde()`, `box_violin(), etc`
 
 ## Notebooks
 
